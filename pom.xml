@@ -285,10 +285,11 @@
                                             <packageApplication>true</packageApplication>
                                             <artifact>org.kie.kogito:integration-tests-quarkus-processes-infinispan:${kogito-quarkus.version}</artifact>
                                         </test>
+                                        <!-- Disabled as part of https://github.com/kiegroup/kogito-runtimes/pull/2517
                                         <test>
                                             <packageApplication>true</packageApplication>
                                             <artifact>org.kie.kogito:integration-tests-quarkus-predictions:${kogito-quarkus.version}</artifact>
-                                        </test>
+                                        </test> -->
                                         <test>
                                             <packageApplication>true</packageApplication>
                                             <artifact>org.kie.kogito:integration-tests-quarkus-rules:${kogito-quarkus.version}</artifact>
